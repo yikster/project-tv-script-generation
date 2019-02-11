@@ -13995,12 +13995,12 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Training parameters</span>
 <span class="c1"># Number of Epochs</span>
-<span class="n">num_epochs</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">num_epochs</span> <span class="o">=</span> <span class="mi">20</span>
 <span class="c1"># Learning Rate</span>
 <span class="n">learning_rate</span> <span class="o">=</span> <span class="mf">0.001</span>
 
@@ -14038,7 +14038,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -14076,66 +14076,246 @@ out = output[:, -1]</code></pre>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Training for 5 epoch(s)...
-Epoch:    1/5     Loss: 4.493042566299438
+<pre>Training for 20 epoch(s)...
+Epoch:    1/20    Loss: 4.496104626178742
 
-Epoch:    1/5     Loss: 4.228325615406036
+Epoch:    1/20    Loss: 4.093184403896331
 
-Epoch:    1/5     Loss: 2.6497269752025603
+Epoch:    1/20    Loss: 2.354679164171219
 
-Epoch:    1/5     Loss: 1.6669629271030426
+Epoch:    1/20    Loss: 1.5962650361061097
 
-Epoch:    1/5     Loss: 1.300877246618271
+Epoch:    1/20    Loss: 1.2961326823234558
 
-Epoch:    1/5     Loss: 1.0869202675819396
+Epoch:    1/20    Loss: 1.1372275092601776
 
-Epoch:    2/5     Loss: 0.899810783011746
+Epoch:    2/20    Loss: 0.9724809957908832
 
-Epoch:    2/5     Loss: 0.7579518177509308
+Epoch:    2/20    Loss: 0.8573719934225082
 
-Epoch:    2/5     Loss: 0.7031294749975204
+Epoch:    2/20    Loss: 0.8012121194601058
 
-Epoch:    2/5     Loss: 0.663042285323143
+Epoch:    2/20    Loss: 0.7417426890134812
 
-Epoch:    2/5     Loss: 0.6175942375659943
+Epoch:    2/20    Loss: 0.713193526506424
 
-Epoch:    2/5     Loss: 0.5873408249616623
+Epoch:    2/20    Loss: 0.6823865838050842
 
-Epoch:    3/5     Loss: 0.5455624502406116
+Epoch:    3/20    Loss: 0.615650121277977
 
-Epoch:    3/5     Loss: 0.5052477843761444
+Epoch:    3/20    Loss: 0.5723569396138192
 
-Epoch:    3/5     Loss: 0.4930144972205162
+Epoch:    3/20    Loss: 0.5628670583963394
 
-Epoch:    3/5     Loss: 0.4744255997538567
+Epoch:    3/20    Loss: 0.5335488469600678
 
-Epoch:    3/5     Loss: 0.4534689871072769
+Epoch:    3/20    Loss: 0.5112657963633537
 
-Epoch:    3/5     Loss: 0.4458294695615768
+Epoch:    3/20    Loss: 0.5005685293674469
 
-Epoch:    4/5     Loss: 0.42617711330842634
+Epoch:    4/20    Loss: 0.47779058353522547
 
-Epoch:    4/5     Loss: 0.40493215653300285
+Epoch:    4/20    Loss: 0.45194004556536677
 
-Epoch:    4/5     Loss: 0.39421210381388666
+Epoch:    4/20    Loss: 0.448097153544426
 
-Epoch:    4/5     Loss: 0.38751531174778936
+Epoch:    4/20    Loss: 0.42262398329377177
 
-Epoch:    4/5     Loss: 0.3876824018657207
+Epoch:    4/20    Loss: 0.42249440869688987
 
-Epoch:    4/5     Loss: 0.37555973598361014
+Epoch:    4/20    Loss: 0.4119640288949013
 
-Epoch:    5/5     Loss: 0.3576660269183521
+Epoch:    5/20    Loss: 0.39535316200367915
 
-Epoch:    5/5     Loss: 0.3494576165676117
+Epoch:    5/20    Loss: 0.3866068055331707
 
-Epoch:    5/5     Loss: 0.3355655427873135
+Epoch:    5/20    Loss: 0.3766062357723713
 
-Epoch:    5/5     Loss: 0.3377405553460121
+Epoch:    5/20    Loss: 0.3664876637160778
 
-Epoch:    5/5     Loss: 0.33636774131655695
+Epoch:    5/20    Loss: 0.35881884044408796
 
-Epoch:    5/5     Loss: 0.3328343820720911
+Epoch:    5/20    Loss: 0.3628799677491188
+
+Epoch:    6/20    Loss: 0.34804569948786757
+
+Epoch:    6/20    Loss: 0.3492081820964813
+
+Epoch:    6/20    Loss: 0.33882932537794114
+
+Epoch:    6/20    Loss: 0.3319088336378336
+
+Epoch:    6/20    Loss: 0.3197142788469791
+
+Epoch:    6/20    Loss: 0.3233572329580784
+
+Epoch:    7/20    Loss: 0.31744363679648174
+
+Epoch:    7/20    Loss: 0.3105387202650309
+
+Epoch:    7/20    Loss: 0.3131966540366411
+
+Epoch:    7/20    Loss: 0.2987458197772503
+
+Epoch:    7/20    Loss: 0.3062002549767494
+
+Epoch:    7/20    Loss: 0.3002136438935995
+
+Epoch:    8/20    Loss: 0.2893981408111804
+
+Epoch:    8/20    Loss: 0.28685679887235166
+
+Epoch:    8/20    Loss: 0.2873925893381238
+
+Epoch:    8/20    Loss: 0.2800612513571978
+
+Epoch:    8/20    Loss: 0.2869355705678463
+
+Epoch:    8/20    Loss: 0.28087671933323144
+
+Epoch:    9/20    Loss: 0.27570670584665796
+
+Epoch:    9/20    Loss: 0.27039958560466765
+
+Epoch:    9/20    Loss: 0.26346484646201135
+
+Epoch:    9/20    Loss: 0.26813424414396286
+
+Epoch:    9/20    Loss: 0.2720110805630684
+
+Epoch:    9/20    Loss: 0.2684057576656342
+
+Epoch:   10/20    Loss: 0.257181052182965
+
+Epoch:   10/20    Loss: 0.25755312556028365
+
+Epoch:   10/20    Loss: 0.2549710326492786
+
+Epoch:   10/20    Loss: 0.25170504972338675
+
+Epoch:   10/20    Loss: 0.248716320797801
+
+Epoch:   10/20    Loss: 0.2567255824804306
+
+Epoch:   11/20    Loss: 0.2466037991937034
+
+Epoch:   11/20    Loss: 0.24420163954794408
+
+Epoch:   11/20    Loss: 0.2408451666086912
+
+Epoch:   11/20    Loss: 0.2431989627480507
+
+Epoch:   11/20    Loss: 0.241180707372725
+
+Epoch:   11/20    Loss: 0.24095215722918512
+
+Epoch:   12/20    Loss: 0.23898838536239714
+
+Epoch:   12/20    Loss: 0.23858987179398536
+
+Epoch:   12/20    Loss: 0.23378428326547146
+
+Epoch:   12/20    Loss: 0.22839451195299626
+
+Epoch:   12/20    Loss: 0.23228130900859834
+
+Epoch:   12/20    Loss: 0.22948102704435586
+
+Epoch:   13/20    Loss: 0.22475268279836114
+
+Epoch:   13/20    Loss: 0.22790385772287847
+
+Epoch:   13/20    Loss: 0.22439132291078567
+
+Epoch:   13/20    Loss: 0.22192670119553803
+
+Epoch:   13/20    Loss: 0.22833600005507468
+
+Epoch:   13/20    Loss: 0.22723824329674244
+
+Epoch:   14/20    Loss: 0.21985975093192148
+
+Epoch:   14/20    Loss: 0.2189748169928789
+
+Epoch:   14/20    Loss: 0.21902373906970024
+
+Epoch:   14/20    Loss: 0.22010446007549764
+
+Epoch:   14/20    Loss: 0.21388991973549126
+
+Epoch:   14/20    Loss: 0.21493589144200087
+
+Epoch:   15/20    Loss: 0.21604817512228192
+
+Epoch:   15/20    Loss: 0.21301782497763633
+
+Epoch:   15/20    Loss: 0.21496610540151595
+
+Epoch:   15/20    Loss: 0.21008115507662295
+
+Epoch:   15/20    Loss: 0.2093793324381113
+
+Epoch:   15/20    Loss: 0.21354897704720496
+
+Epoch:   16/20    Loss: 0.20289044079132992
+
+Epoch:   16/20    Loss: 0.2054719061627984
+
+Epoch:   16/20    Loss: 0.20392939680069685
+
+Epoch:   16/20    Loss: 0.20458907014876604
+
+Epoch:   16/20    Loss: 0.20530947499722244
+
+Epoch:   16/20    Loss: 0.20600006133317947
+
+Epoch:   17/20    Loss: 0.20903303582573712
+
+Epoch:   17/20    Loss: 0.19837073071300984
+
+Epoch:   17/20    Loss: 0.201546416901052
+
+Epoch:   17/20    Loss: 0.19888023668527602
+
+Epoch:   17/20    Loss: 0.19854527001082897
+
+Epoch:   17/20    Loss: 0.20259613862633705
+
+Epoch:   18/20    Loss: 0.19642667897189622
+
+Epoch:   18/20    Loss: 0.1968984580039978
+
+Epoch:   18/20    Loss: 0.19973248334228993
+
+Epoch:   18/20    Loss: 0.19330484859272837
+
+Epoch:   18/20    Loss: 0.1963251312226057
+
+Epoch:   18/20    Loss: 0.1974973402619362
+
+Epoch:   19/20    Loss: 0.1906611201706762
+
+Epoch:   19/20    Loss: 0.19313336731493472
+
+Epoch:   19/20    Loss: 0.18718644862622022
+
+Epoch:   19/20    Loss: 0.19655224014818667
+
+Epoch:   19/20    Loss: 0.19400092354416848
+
+Epoch:   19/20    Loss: 0.19342686359584332
+
+Epoch:   20/20    Loss: 0.19089586347993368
+
+Epoch:   20/20    Loss: 0.18951642756164075
+
+Epoch:   20/20    Loss: 0.1867236066609621
+
+Epoch:   20/20    Loss: 0.18055335058271885
+
+Epoch:   20/20    Loss: 0.18594726452231408
+
+Epoch:   20/20    Loss: 0.19391881617903708
 
 Model Trained and Saved
 </pre>
@@ -14170,7 +14350,10 @@ Model Trained and Saved
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong> I tested with loops ( squence_length = [ 10, 7, 5], hidden_dim = [256, 128, 64], n_layers = [4, 8, 2] ) in 1 Epoch.
-I compared 27 combinations and finally, I found the best one was sequence_length=10, hidden_dim=256, and n_layers=8</p>
+I compared 27 combinations and finally, I found the best one was sequence_length=10, hidden_dim=256, and n_layers=4
+A googled result was different, n_layers 2 ~ 3 is nice, and 5 is better. 
+I tested with lrs ( 0.01, 0.02, 0.001, 0.005). only 0.001 could get significant loss values.</p>
+<p>Finally, I just run for 20 epochs. I thought it's enough because it's much less than 3.5. and It could be better more epoch, but it could be overfit because I didn't make validation code.</p>
 
 </div>
 </div>
@@ -14186,7 +14369,7 @@ I compared 27 combinations and finally, I found the best one was sequence_length
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -14216,7 +14399,7 @@ I compared 27 combinations and finally, I found the best one was sequence_length
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -14311,12 +14494,12 @@ I compared 27 combinations and finally, I found the best one was sequence_length
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># run the cell multiple times to get different results!</span>
 <span class="n">gen_length</span> <span class="o">=</span> <span class="mi">400</span> <span class="c1"># modify the length to your preference</span>
-<span class="n">prime_word</span> <span class="o">=</span> <span class="s1">&#39;jerry&#39;</span> <span class="c1"># name for starting the script</span>
+<span class="n">prime_word</span> <span class="o">=</span> <span class="s1">&#39;kramer&#39;</span> <span class="c1"># name for starting the script</span>
 
 <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">DON&#39;T MODIFY ANYTHING IN THIS CELL THAT IS BELOW THIS LINE</span>
@@ -14351,49 +14534,63 @@ I compared 27 combinations and finally, I found the best one was sequence_length
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>jerry: your clothing? women are you were know, tomorrow.
+<pre>kramer: a word.
 
-kessler: yeah, yeah, thats so, theyre her architect, thats a lawyer.
+jerry: no.
 
-jerry: you tip said that
+elaine: hey, you just a friend of the bank of you tested to the dictionary, i do to meet that?
 
-jerry: i tip her, i necessary it, if im you just just in the little..
+elaine: i cant believe uh.
 
-jerry: i dont it that. you think it.
+elaine: hi.
 
-kramer: yeah, thats a great, not a architect. i cant to the her..?
+helen: hi!
 
-jerry:(to elaine) yeah. i dont know, so!
+jerry: okay, will, i know. i have a word?
 
-elaine: yeah, im sorry, no you dont ask these to the say!
+jerry: doesnt got stolen?
 
-george: yeah, i think, the washing kinda the around- the building!
+elaine: hey lets the dollars!(jerry is opens the name door the walking in the dictionary) im saw the guys... bum i got to me the apartment.
 
-jerry: uh, yeah, i think?
+elaine: uh! a to the lock of meet, to see... hi!
 
-george:(to the phone) oh a people the appetite?
+joel: doesnt dont stolen,(jerry door.
 
-jerry:(cynical) yeah.
+elaine: yknow lets all know, i think a word.
 
-jerry:(upset in quickly, im i gonna know. a to to the around for it..?(machine the around- to to couch? that, the to... the thinking here,... hunt turns a to to couch.(next been up the appetite to... oh, thats was great?
+jerry:(to jerry) that saw that.
 
-kessler: what...
+elaine: uh, yeah.
 
-jerry:(thinking) i cant a lot?
+george: uh, yeah, youre years.
 
-george:(thinking is kessler, that just need) the thinking) i know? i dont her, you know. i cant over him on this. a next to in...
+jerry: uh, yeah, i think you think pamela
 
-kramer: you know, the always door.
+jerry: you know, who business still the problem down.
 
-jerry:(upset) ma, what, its was wine?
+helen: yeah, i know, so, i got him a murder time a job interview fun of the shirt of cotton, balls, this guy, what is about.
 
-jerry: i dont her that. a appetite.) you cant got the to end-... let gonna to anything.
+elaine:(to the other laundry patrons organization any picture?
 
-elaine: yeah, i gonna to that?
+helen: hey. a word.
 
-elaine:(upset jerry the to jerry to the little off for this, the little in of cause...(next hangs- come. jerry, i have that that.
+george: no, you know, i me even just kinda...(turns. a sandwich.(stands phone) you think so letters just you know, its dressed you mean i talk you the friends!
 
-george: yeah,
+george: i cant believe this a stands has. it you got it with one and im will that it a paper.
+
+helen: you know, um, i think you dont have it?
+
+elaine: hi.
+
+jerry: i didnt be him with it?
+
+elaine: hi?
+
+jerry: yeah.
+
+george: so, you know, she called this morning with said!(pause) hey, a other rico. would you like?
+
+
 </pre>
 </div>
 </div>
@@ -14412,11 +14609,11 @@ george: yeah,
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># save script to a text file</span>
-<span class="n">f</span> <span class="o">=</span>  <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;generated_script_1.txt&quot;</span><span class="p">,</span><span class="s2">&quot;w&quot;</span><span class="p">)</span>
+<span class="n">f</span> <span class="o">=</span>  <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;generated_script_4_kramer.txt&quot;</span><span class="p">,</span><span class="s2">&quot;w&quot;</span><span class="p">)</span>
 <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">generated_script</span><span class="p">)</span>
 <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 </pre></div>
